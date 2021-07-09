@@ -42,7 +42,7 @@ https://www.w3schools.com/html/html5_semantic_elements.asp
 
 The following image demonstrates the original page design layout before changes were applied:
 
-[Original Mockup](.assets/images/horiseonpageimage.jpg).
+[Original Mockup](./assets/images/horiseonpageimage.jpg).
 
 
 ## Credits:
