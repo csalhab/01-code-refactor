@@ -15,7 +15,7 @@ This repo is homework1 where the learning is about:
 
 ## Acceptance Criteria
 
-* It's done when all the generic <div>'s are replaced with suitable semantic tags. 
+* It's done when all the generic div's are replaced with suitable semantic tags. 
 
 * It's done when selectors and properties are consolidated per the semantic tags updates.
 
