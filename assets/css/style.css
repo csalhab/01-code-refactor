@@ -1,9 +1,17 @@
+/* 
+box-sizing: border-box makes dealing with the sizes of elements much easier 
+as it tells the browser to account for any border and padding in the values 
+specified on element's width & height.
+*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*
+applies a slightly off-white, light gray/rosy-ish color to the page background
+*/
 body {
     background-color: #d9dcd6;
 }
@@ -32,6 +40,10 @@ header nav {
     font-size: 20px;
 }
 
+/* 
+This 
+
+*/
 header nav ul {
     list-style-type: none;
 }
@@ -50,6 +62,9 @@ p {
     font-size: 16px;
 }
 
+/*
+NOTE: this hero image is decorative thus no alt tag required.
+*/
 .hero {
     height: 800px;
     width: 100%;

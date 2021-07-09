@@ -9,6 +9,7 @@ This repo is homework1 where the learning is about:
 ## Table of Contents
 
 - [Acceptance Criteria](#acceptance)
+- [Deployed Application](#deployed)
 - [Good Resource on Semantics](#resource)
 - [Assets](#assets)
 - [Credits](#credits)
@@ -33,17 +34,18 @@ This repo is homework1 where the learning is about:
 
 * It's done when the original page design layout hasn't changed and still looks the same after the semantics tags have been applied.
 
+## Deployed Application
+
+[You may see the deployed application here](https://csalhab.github.io/01-code-refactor/)
 
 ## Good Resource on Semantics:
 https://www.w3schools.com/html/html5_semantic_elements.asp
-
 
 ## Assets:
 
 The following image demonstrates the original page design layout before changes were applied:
 
 [Original Mockup](./assets/images/horiseonpageimage.jpg).
-
 
 ## Credits:
 
