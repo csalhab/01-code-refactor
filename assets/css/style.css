@@ -16,18 +16,31 @@ body {
     background-color: #d9dcd6;
 }
 
+/*
+used semantic tag for header;
+this improves accessibility;
+this also eliminated a duplicate unnecessary class.
+*/
 header {
     padding: 20px;
+    /* header uses Trebuchet MS by default and fallbacks follow and used as supported */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+/*
+h1 heading attribute set to display horizontally with font size 48px
+*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*
+.seo is a class and it is applied to h1 heading attribute spanning just the letters seo;
+this is basically highlighting the letters seo, distinguishes it from the rest of the word.
+*/
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -35,60 +48,93 @@ header h1 .seo {
 header nav {
     padding-top: 15px;
     margin-right: 20px;
+    /* Positions header's nav to the right side */
     float: right;
+    /* header's nav uses Gill Sans by default and fallbacks follow and used as supported */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
 /* 
-This 
+This is a best practice in using unordered list to display navigational items;
+The none here makes it so ul's bullets do not appear.
 
 */
 header nav ul {
     list-style-type: none;
 }
 
+/*
+This allows the navigation items to appear in a row alongside each other
+*/
+
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+/*
+This makes hyperlinks (which here are nav items) have no underline and set to white.
+*/
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*
+unless specified and overridden, all text in paragraph tag will be 16px 
+*/
 p {
     font-size: 16px;
 }
 
 /*
-NOTE: this hero image is decorative thus no alt tag required.
+NOTE: this hero image is decorative thus no alt tag required;
+image fills the width of the browser page.
 */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    /* image is a jpg found in the images folder */
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
+/*
+sets online-reputation-management.jpg to the left side in section
+*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*
+sets search-engine-optimization.jpg and social-media-marketing.jpg to the right side in section
+*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
+/*
+used semantic tag section for what had been generic div;
+this improves accessibility;
+this also eliminated a duplicate unnecessary class.
+*/
 
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/*
+used semantic tag aside for what had been a generic div;
+this improves accessibility.
+*/
 
 aside {
     margin-right: 20px;
@@ -97,10 +143,14 @@ aside {
     float: right;
     width: 20%;
     height: 100%;
+    /* aside uses Gill Sans by default and fallbacks follow and used as supported */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
+/*
+the margin-bottom controls spacing between the next below
+*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -116,6 +166,9 @@ aside {
     color: #ffffff;
 }
 
+/*
+text is aligned center
+*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -131,6 +184,10 @@ aside {
     text-align: center;
 }
 
+/*
+these benefit-lead, benefit-brand and benefit-cost are spaced apart by margin;
+top and bottom margins are 10px & right and left margins are auto.
+*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -176,6 +233,9 @@ aside {
     color: #ffffff;
 }
 
+/*
+images used in the section have a max height of 200px
+*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -188,6 +248,9 @@ aside {
     max-height: 200px;
 }
 
+/*
+h2 heading attribute set to 36px
+*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -203,6 +266,11 @@ aside {
     font-size: 36px;
 }
 
+/*
+used semantic tag footer for what had been a generic div using a class;
+this improves accessibility.
+*/
+
 footer {
     padding: 30px;
     clear: both;
@@ -210,6 +278,9 @@ footer {
     text-align: center;
 }
 
+/*
+footer's h2 heading attribute set to 20px
+*/
 footer h2 {
     font-size: 20px;
 }

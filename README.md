@@ -45,20 +45,26 @@ https://www.w3schools.com/html/html5_semantic_elements.asp
 
 The following image demonstrates the original page design layout before changes were applied:
 
-[Original Mockup](./assets/images/horiseonpageimage.jpg).
+[Original Mockup](./assets/images/horiseonpageimage.jpg)
 
 ## Credits:
 
 Shout out to Professor Ben for coding the original html and css and teaching us best practices beside all the technologies used.
 
 Following tutorials/resources were leveraged:
-https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
-https://www.w3schools.com/html/html5_semantic_elements.asp
-https://css-tricks.com/
-https://meyerweb.com/eric/tools/css/reset/
-https://pixabay.com/
-https://www.w3schools.com/cssref/default.asp
-https://www.youtube.com/watch?v=yfoY53QXEnI&t=3439s
-https://flexboxfroggy.com/
+
+- https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+- https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+
+- https://www.w3schools.com/html/html5_semantic_elements.asp
+
+- https://css-tricks.com/
+
+- https://meyerweb.com/eric/tools/css/reset/
+
+- https://www.w3schools.com/cssref/default.asp
+
+- https://www.youtube.com/watch?v=yfoY53QXEnI&t=3439s
+
 
