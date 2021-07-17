@@ -8,8 +8,8 @@ This repo is homework1 where the learning is about:
 
 ## Table of Contents
 
-- [Acceptance Criteria](#acceptance)
-- [Deployed Application](#deployed)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Deployed Application](#deployed-application)
 - [Good Resource on Semantics](#resource)
 - [Assets](#assets)
 - [Credits](#credits)
@@ -38,7 +38,8 @@ This repo is homework1 where the learning is about:
 
 [You may see the deployed application here](https://csalhab.github.io/01-code-refactor/)
 
-## Good Resource on Semantics:
+## Resource:
+Good Resource on Semantics:
 https://www.w3schools.com/html/html5_semantic_elements.asp
 
 ## Assets:
